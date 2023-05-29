@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+li{
+    list-style: none;
+    color: darkblue;
+    font-weight: 600;
+    font-size: 2rem;
+    cursor: pointer;
+
+}
+ul, .simpsons{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navigation{
+    background-color: lightyellow;
+    padding: 10px 200px;
+}
+img{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+.simpson{
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.simpsons{
+    margin-top: 3rem;
+}
+.footer{
+    text-align: center;
+    margin-top: auto;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    background-color: lightyellow;
+}
+.footer div{
+    padding-top: 3px;
+}
